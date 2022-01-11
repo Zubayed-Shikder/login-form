@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= k , initial-scale=1.0">
+    <title>login-from</title>
+    <script src="https://kit.fontawesome.com/d8006d084e.js" crossorigin="anonymous"></script>
+    <style>
+        .login-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-form input,
+        button {
+            font-size: 1.3em;
+            margin-top: 20px;
+            padding-left: 10px;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+        }
+
+        .login-button {
+            background-color: orange;
+            color: whitesmoke;
+            font-weight: 700;
+        }
+
+        header {
+            height: 100px;
+            background-color: orange;
+            border-radius: 5px;
+        }
+
+        nav a {
+            color: black;
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">Products</a>
+                <a href="">Orders</a>
+                <a href="">About us</a>
+            </span>
+            <span>
+                <a href=""><i class="fas fa-user"></i></a>
+                <a href=""><i class="fas fa-sign-out-alt"></i></a>
+            </span>
+        </nav>
+
+    </header>
+    <section class="login-container">
+        <form action="" class="login-form">
+            <h1>Login</h1>
+            <input type="text" placeholder="enter your email">
+            <input type="password" placeholder="enter your password">
+            <button class="login-button" type="submit">Login</button>
+        </form>
+    </section>
+</body>
+
+</html>
